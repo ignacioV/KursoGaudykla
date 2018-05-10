@@ -45,6 +45,7 @@ public class UserActions {
                break; 
             case 3 :
                 System.err.println("Programa baigia darba...");
+                scanner.close();
                 System.exit(0);
                 break;
             
